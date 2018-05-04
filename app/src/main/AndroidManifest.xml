@@ -22,7 +22,8 @@
         <activity
             android:name=".EditHabitList"
             android:label="@string/title_activity_edit_habit_list"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".EditHabitActivity"></activity>
     </application>
 
 </manifest>
