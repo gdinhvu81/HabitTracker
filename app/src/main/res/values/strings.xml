@@ -53,4 +53,5 @@
     <string name="list_item_reset_never">Since %1$s</string>
     <string name="bt_increase_content_description">Increase score</string>
     <string name="bt_decrease_content_description">Decrease score</string>
+    <string name="title_activity_edit_habit_list">EditHabitList</string>
 </resources>
