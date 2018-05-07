@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.gdinh.habittracker">
+    package="com.example.gdinh.myapplication">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
 
     <application
+        android:name="com.example.gdinh.application.HabitApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:replace="supportsRtl">
         <activity
-            android:name=".HabitListActivity"
+            android:name="com.example.gdinh.activity.HabitListActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -20,10 +24,31 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".EditHabitList"
-            android:label="@string/title_activity_edit_habit_list"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".EditHabitActivity"></activity>
+            android:name="com.example.gdinh.activity.EditHabitActivity"
+            android:parentActivityName="com.example.gdinh.activity.HabitListActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gdinh.activity.HabitListActivity" />
+        </activity>
+        <activity
+            android:name="com.example.gdinh.activity.DetailHabitActivity"
+            android:label="@string/activity_detail_label"
+            android:parentActivityName="com.example.gdinh.activity.HabitListActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gdinh.activity.HabitListActivity" />
+        </activity>
+        <activity
+            android:name="com.example.gdinh.picker.ColorPicker"
+            android:label="Color Picker"
+            android:parentActivityName="com.example.gdinh.activity.EditHabitActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gdinh.activity.HabitListActivity" />
+        </activity>
+
     </application>
 
 </manifest>

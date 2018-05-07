@@ -3,7 +3,7 @@
     <string name="activity_create_label">Create</string>
     <string name="activity_edit_label">Edit</string>
     <string name="activity_detail_label">Detail</string>
-    <string name="title_widget_detail">Habito Details</string>
+    <string name="title_widget_detail">Habit Details</string>
 
     <string name="no_data_available">No data available.</string>
 
@@ -11,26 +11,14 @@
     <string name="action_save">Save</string>
     <string name="action_edit">Edit</string>
     <string name="action_delete">Delete</string>
-    <string name="sign_out">Sign Out</string>
-    <string name="action_sort_by_name">Sort by Name</string>
-    <string name="action_sort_by_date">Sort by Date</string>
     <string name="delete_habit_message">Are you sure, you want to delete habit and all associated data?</string>
-
-    <string name="preference_sort_file_key" translatable="false">com.ivanmagda.habito.SORT_PREFERENCE_FILE_KEY</string>
-    <string name="saved_sort_order" translatable="false">sort_order</string>
 
     <string name="week">Week</string>
     <string name="month">Month</string>
     <string name="year">Year</string>
     <string name="never">Never</string>
 
-    <string name="bar_chart_set_name">This %1$s</string>
-
     <!--Auth-->
-    <string name="auth_success_msg">You\'re now signed in. Hi there!</string>
-    <string name="auth_canceled_msg">Sign in canceled</string>
-    <string name="sign_out_message">Are you sure you want to sign out?</string>
-    <string name="no_internet_connection">There is no Internet connection.</string>
     <string name="unknown_error">An unknown error has occurred.</string>
 
     <!--Edit habit-->
@@ -53,5 +41,5 @@
     <string name="list_item_reset_never">Since %1$s</string>
     <string name="bt_increase_content_description">Increase score</string>
     <string name="bt_decrease_content_description">Decrease score</string>
-    <string name="title_activity_edit_habit_list">EditHabitList</string>
+
 </resources>

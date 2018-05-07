@@ -95,14 +95,6 @@
         <item name="android:paddingLeft">4dp</item>
     </style>
 
-    <style name="FormInputColor">
-        <item name="android:layout_gravity">center_vertical|end</item>
-        <item name="android:layout_width">0dp</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:background">?android:attr/selectableItemBackground</item>
-    </style>
-
     <style name="FormSpinner" parent="@style/Widget.AppCompat.Spinner">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">wrap_content</item>
@@ -113,6 +105,14 @@
         <item name="android:paddingLeft">4dp</item>
         <item name="android:textSize">18sp</item>
         <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+    <style name="FormInputColor">
+        <item name="android:layout_gravity">center_vertical|end</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
     </style>
 
     <style name="FormScore">
@@ -158,7 +158,7 @@
         <item name="android:textColor">@color/secondary_text</item>
     </style>
 
-    <style name="DateRangeTextView">
+    <style name="HabitGoalCount">
         <item name="android:textAllCaps">true</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "81252206958",
+    "firebase_url": "https://habittracker-278db.firebaseio.com",
+    "project_id": "habittracker-278db",
+    "storage_bucket": "habittracker-278db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81252206958:android:9dad6778384ff433",
+        "android_client_info": {
+          "package_name": "com.example.gdinh.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81252206958-7ge0i8k5dg73pjd1mm5oggn4gpbjjfo4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0EVm8roAgfVwkBaO1x5fjOSd3_u59GaU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

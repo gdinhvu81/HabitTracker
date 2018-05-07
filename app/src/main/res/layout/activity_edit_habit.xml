@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.gdinh.habittracker.EditHabitActivity">
+    tools:context="com.example.gdinh.activity.EditHabitActivity">
 
     <!-- Name -->
     <LinearLayout
@@ -26,6 +26,13 @@
 
             <requestFocus />
         </EditText>
+
+        <ImageButton
+            android:id="@+id/bt_pick_color"
+            style="@style/FormInputColor"
+            android:onClick="showColorPicker"
+            android:contentDescription="@string/color_picker_default_title"
+            android:src="@drawable/ic_palette" />
 
     </LinearLayout>
 

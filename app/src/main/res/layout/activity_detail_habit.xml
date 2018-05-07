@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail_habit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gdinh.activity.DetailHabitActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_date_range"
+            style="@style/HabitGoalCount"
+            tools:text="Goal Achieved" />
+
+        <LinearLayout
+            style="@style/FormScore"
+            android:layout_marginTop="@dimen/form_score_margin_top">
+
+            <ImageButton
+                android:id="@+id/bt_decrease"
+                style="@style/IncScoreButton"
+                android:contentDescription="@string/bt_decrease_content_description"
+                android:src="@drawable/ic_minus_gray" />
+
+            <TextView
+                android:id="@+id/tv_score"
+                style="@style/ScoreTextView"
+                tools:text="0" />
+
+            <ImageButton
+                android:id="@+id/bt_increase"
+                style="@style/DecScoreButton"
+                android:contentDescription="@string/bt_increase_content_description"
+                android:src="@drawable/ic_plus_gray" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
